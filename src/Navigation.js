@@ -17,7 +17,7 @@ class Navigation extends Component {
         <Router>
           <div>
             <ul className="menu">
-              <li><img src={logo} className="App-logo" /></li>
+              <li><img src={logo} className="App-logo" alt='logo' /></li>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
             </ul>
